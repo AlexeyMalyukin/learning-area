@@ -24,15 +24,15 @@
       <ul>
         <li>
           <label for="uname">User name:</label>
-          <input type="text" name="uname" id="uname" required>
+          <input type="text" name="uname" id="uname" patternt="(\d{1}([\@])\d{3})" required>
         </li>
         <li>
           <label for="email">Email address:</label>
-          <input type="text" name="email" id="email" required>
+          <input type="text" name="email" id="email" pattern="([a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[bigcorp.eu])" required>
         </li>
         <li>
           <label for="phone">Phone number:</label>
-          <input type="text" name="phone" id="phone" required>
+          <input type="text" name="phone" id="phone" pattern="(\d{10})|(\d{3}([\-])\d{3}([\-])\d{4})" required>
         </li>
         <li>
           <label for="comment">Comment:</label>
